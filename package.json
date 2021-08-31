@@ -1,0 +1,46 @@
+{
+  "name": "vue-google-sso",
+  "version": "1.0.0",
+  "description": "vue-google-sso is an open source google authentication library which provide easiness to single sign on Vue js with the help of Google.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahirZain/vue-google-sso.git"
+  },
+  "keywords": [
+    "vuejs",
+    "single",
+    "sign",
+    "on"
+  ],
+  "author": "Shahir Zain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahirZain/vue-google-sso/issues"
+  },
+  "homepage": "https://github.com/ShahirZain/vue-google-sso#readme",
+  "peerDependencies": {
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@vue/compiler-sfc": "^3.2.6",
+    "rollup": "^2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.4.2",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
